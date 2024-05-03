@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: hsl(180, 31%, 5%);
+}
+
+.wrapper {
+    height: 2500px;
+}
+
+.container {
+    position: fixed;
+    top: 15vh;
+    width: 2700px;
+
+    display: flex;
+    justify-content: space-around;
+
+    transition: transform 0.15s;
+    will-change: transform;
+}
+
+.box {
+    position: relative;
+    width: 350px;
+    height: 500px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.two {
+    background-image: url(./img/1.jpg);
+}
+
+.one {
+    background-image: url(./img/2.jpg);
+}
+
+.three {
+    background-image: url(./img/3.jpg);
+}
+
+.four {
+    background-image: url(./img/4.jpg);
+}
+
+.five {
+    background-image: url(./img/5.jpg);
+}
+
+.six {
+    background-image: url(./img/6.jpg);
+}
